@@ -51,6 +51,10 @@ p {
     margin: 8px auto;
 }
 
+img {
+    display: block;
+}
+
 
 /* Header */
 
@@ -95,7 +99,7 @@ p {
     width: 100%;
     background: url("../img/bg.jpg");
     background-size: cover;
-    margin-top: 96px;
+    margin-top: 92px;
     text-align: center;
     padding-top: 80px;
 }
@@ -206,4 +210,51 @@ p {
 
 .portfolio .call p {
     color: #FFF;
+}
+
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 84px;
+    display: block;
+    background: url(../img/linhas.svg) no-repeat center;
+    position: absolute;
+    top: 208px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade_lista {
+    padding-top: 20px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 6px auto;
 }
