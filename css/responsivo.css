@@ -56,6 +56,10 @@
 		border-color: #FFF;
 	}
 
+	.header_menu ul li a.menu_ativo {
+		border-color: #FFF;
+	}
+
 	/* Introdução */
 
 	.introducao h1 {
@@ -67,6 +71,12 @@
 		padding-top: 40px;
 		background: url("../img/bg-mobile.jpg") no-repeat center;
 		background-size: cover;
+	}
+	
+	/* Introdução Interna */
+
+	.introducao-interna {
+		margin-top: 0px;
 	}
 
 	/* Call */
@@ -84,4 +94,18 @@
 	.qualidade_lista {
 		overflow: hidden;
 	}
+
+	/* Sobre */
+
+	.missao_sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
 }
