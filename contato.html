@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
+        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/grid.css">
@@ -9,7 +10,14 @@
         <link rel="stylesheet" href="css/contato.css">
         <link rel="stylesheet" href="css/responsivo.css">
         <script>document.documentElement.classList.add("js");</script>
-        <title>Bikcraft - Contato</title>
+        <title>Bikcraft - Contato - 21 9999-9999</title>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Bikcraft - Contato - 21 9999-9999">
+        <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Esporte e Retrô.">
+        <meta property="og:url" content="http://bikcraft.com/contato.html">]
+        <meta property="og:image" content="http://bikcraft.com/img/og-image.png">
+        <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Esporte e Retrô.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
@@ -37,16 +45,22 @@
         </section>
 
         <section class="contato container fadeInDown" data-anime="1200">
-            <form id="form_orcamento" class="contato_form grid-8">
+            <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" name="nome" required>
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
+                <input type="email" id="email" name="email" required>
+
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
                 <label for="telefone">Telefone</label>
                 <input type="text" id="telefone">
-                <label for="espec">Especificações</label>
-                <textarea id="espec"></textarea>
-                <button type="submit" class="btn btn-preto">Enviar</button>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
             </form>
             <div class="contato_dados grid-8">
                 <h3>Dados</h3>
@@ -116,6 +130,7 @@
         </footer>
 
         <script src="./js/simple-anime.js"></script>
+        <script src="./js/simple-form.js"></script>
         <script src="./js/script.js"></script>
 
     </body>
