@@ -15,3 +15,25 @@ Utilizamos neste curso tecnicas de posicionamento como o **Grid Layout**, e tamb
 
 Também foi ensinado conceitos de SEO e Head, também como implementar Analytics e subir o site em um domínio.
 
+## Algumas fotos do projeto:
+
+### Home
+
+![](https://i.imgur.com/PoX6o12.jpg)
+
+### Sobre
+
+![](https://i.imgur.com/SV8gQoh.png)
+
+### Produtos
+
+![](https://i.imgur.com/UkTzqW1.jpg)
+
+### Portfólio
+
+![](https://i.imgur.com/fX9U2Z1.jpg)
+
+### Contato
+
+![](https://i.imgur.com/D20sa9e.png)
+
