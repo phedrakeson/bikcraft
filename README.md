@@ -2,6 +2,8 @@
 
 ![](https://i.imgur.com/gZZyZ6b.jpg)
 
+![](https://i.gyazo.com/1f0c5e05d1d9666364f3f3405a77dfc2.gif)
+
 **Veja o Design do Projeto: https://lnkd.in/eakuByc**
 
 ## O que foi utilizado?
